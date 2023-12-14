@@ -51,3 +51,4 @@ Our final model's performance is evaluated using r-squared metric. As we can see
 
 - **Visualization**:
 
+<iframe src="assets/scatter_plot.html" width=800 height=600 frameBorder=0></iframe>
