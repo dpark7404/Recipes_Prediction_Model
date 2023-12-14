@@ -1,4 +1,6 @@
-# Recipes_Prediction_Model
+# Recipes Prediction Model: Predicting Calories of Recipes
+By Tracy Pham and Daniel Park
+Link to Project 3: https://dpark7404.github.io/Analysis-on-Recipes-and-Rating-Dataset/
 
 ## Framing the Problem
 
