@@ -6,7 +6,7 @@
 
 We aim to predict the caloric content of a recipe because there seems to be discoverable correlations between number of calories and its other nutritional content such as the protein, carbohydrates, fats, sugars, and etc. The selection of regression models is motivated by the continuous nature of the target variable, calories. Regression analysis proves ideal when the objective is to predict a continuous quantity, allowing us to establish a nuanced understanding of a recipe's energy content.
 
-**Data Cleaning**
+- **Data Cleaning**:
 
 |     id | name                                 |   minutes |   n_steps |   n_ingredients |   total fat |   sugar |   sodium |   protein |   saturated fat |   carbohydrates |   calories |
 |:-------|:-------------------------------------|:----------|:----------|:----------------|:------------|:--------|:---------|:----------|:----------------|:----------------|:-----------|
@@ -58,7 +58,7 @@ Our final model's performance is evaluated using r-squared metric. As we can see
 
 This scatter plot helps visually showcase how well the final model's predictions align with the actual values.  Points that closely follow the diagonal line signify accurate predictions, showcasing the model's ability to estimate calories effectively. On the other hand, deviations from the diagonal line may indicate instances of prediction errors. The close proximity of the plotted points to the diagonal line suggests that the model generally makes accurate predictions regarding the calorie content of recipes based on the final model that we created.
 
--**Other Models Attempted**:
+- **Other Models Attempted**:
 In our pursuit of the most effective predictive model, we experimented with different algorithms, including Linear Regression and Random Forest Regressor, to compare their R^2 scores. The Linear Regression model yielded R^2 scores around 0.5, indicating a moderate fit to the data. While the Random Forest Regressor demonstrated performance similar to our final Decision Tree Regressor, we opted against its use due to computational considerations. The Random Forest model not only required significantly more time to execute but also posed challenges during hyperparameter tuning using GridSearchCV, leading to kernel instability. We ultimately went with the Decision Tree Regressor as our final model because favorable balance between predictive accuracy and computational efficiency made it the most practical solution for our specific use case.
 
 ## Fairness Analysis
